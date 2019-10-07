@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="/css/style.css">
+  <title>Menu responsi</title>
+</head>
+
+<body>
+
+  <header>
+    <div class="header">
+      <div class="logo">
+        <a href="#">Logo</a>
+      </div>
+      <div class="icon-menu">
+        <button class="icon-menu">
+          <i id="switcher" class="fas fa-bars"></i>
+        </button>
+      </div>
+      <div id="disp-none" class="menu">
+        <nav>
+          <ul class="grid-menus">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="sobre-mi.html">Sobre mi</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <!-- BOTON DARK -->
+  <div class="boton-dark">
+    <label class="theme-switch" for="checkbox">
+      <input type="checkbox" id="checkbox" />
+      <div class="slider round"></div>
+    </label>
+  </div>
+  <!-- FIN -->
+  <div class="content">
+    <div class="contact-wrapper animated bounceInUp">
+      <div class="contact-form">
+        <h3>Rellena el formulario</h3>
+        <form action="">
+          <p>
+            <input type="text" name="fullname" placeholder="Nombre y apellido" autofocus required>
+          </p>
+          <p>
+            <input type="email" name="email" placeholder="Email" required>
+          </p>
+          <p>
+            <input type="tel" name="phone" placeholder="Telefono" required>
+          </p>
+          <p>
+            <input type="text" name="affair" placeholder="Dirección">
+          </p>
+          <p class="block">
+            <textarea name="message" rows="3" placeholder="Comentario"></textarea>
+          </p>
+          <p class="block enviar">
+            <button>
+              enviar
+            </button>
+          </p>
+        </form>
+      </div>
+    </div>
+
+  </div>
+  <!-- SCRIPT -->
+  <script src="https://kit.fontawesome.com/e5fce8cb94.js" crossorigin="anonymous"></script>
+  <script src="/js/nab.js"></script>
+  <script src="/js/modo-dark.js"></script>
+</body>
+<footer id="footer">
+  <p class="footer-copy">Copyright ©
+    <script>
+      var f = new Date();
+      document.write(f.getFullYear());
+    </script>
+  </p>
+</footer>
+
+</html>

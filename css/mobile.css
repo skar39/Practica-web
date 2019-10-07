@@ -1,0 +1,84 @@
+@media (max-width: 820px) {
+  .logo {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-column: 1 !important;
+  }
+  .header {
+    display: grid !important;
+    grid-template-columns: 1fr 2fr !important;
+    grid-column: 2 !important;
+  }
+  .grid-menus {
+    grid-template-columns: 1fr !important;
+    text-align: center;
+    background: blue;
+    margin: 0;
+    widows: 100%;
+    top: 20px !important;
+  }
+  .menu {
+    display: grid;
+  }
+  .grid-menus li {
+    width: 100%;
+    margin: 10px 0px !important;
+  }
+  .grid-menus a {
+    display: block;
+    text-decoration: none;
+  }
+  .icon-menu {
+    display: grid !important;
+    justify-content: flex-end !important;
+    align-self: center;
+    padding-right: 10%;
+    background: transparent;
+    border: none;
+  }
+  #disp-none {
+    display: none;
+    z-index: -100;
+  }
+  .menu {
+    position: absolute;
+    width: 250px;
+    right: 0;
+    top: 62px;
+  }
+  button {
+    padding: 0px;
+  }
+  .fas {
+    font-size: 30px !important;
+    color: white;
+  }
+  .contact-form form {
+    display: block !important;
+  }
+  .contact-form form input textarea {
+    padding: 5px 0px !important;
+  }
+  .enviar {
+    width: 100%;
+  }
+}
+@media (min-width: 821px) {
+  #disp-none {
+    display: block !important;
+    z-index: 0 !important;
+  }
+}
+@media (max-width: 890px) {
+  /* IMAGEN DE SOBRE MI */
+  .img-sm img {
+    width: 100%;
+    height: 500px;
+  }
+  img {
+    max-width: 100%;
+  }
+
+  /* FIM */
+}

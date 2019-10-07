@@ -1,0 +1,67 @@
+@import url(/css/reset.css);
+@import url(/css/mobile.css);
+@import url(/css/modo-dark.css);
+@import url(/css/Galarias.css);
+@import url(/css/contacto.css);
+@import url(/css/sobremi.css);
+@import url(/css/portfolio.css);
+* {
+  color: #fff;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+a {
+  color: var(--font-a);
+  text-decoration: none;
+}
+.header {
+  display: grid;
+  grid-template-columns: 10vw 20vw 60vw 10vw;
+  background-color: var(--bg-hf);
+}
+.logo {
+  grid-column: 2;
+  padding: 20px 0px;
+}
+.menu {
+  align-self: center;
+}
+.grid-menus {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  text-align: center;
+  color: white;
+  padding: 0;
+}
+.section {
+  background: var(--bg-color);
+  width: 100%;
+}
+.icon-menu {
+  display: none;
+}
+.section {
+  display: grid;
+  grid-template-columns: 10% 1fr 10%;
+}
+.boton-dark {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px 10% 0px 0px;
+}
+.grid-test {
+  grid-column: 2;
+}
+#footer {
+  width: 100%;
+  height: 50px;
+  background-color: var(--bg-hf);
+}
+h3 {
+  font-size: 1.5rem;
+}
+.footer-copy {
+  text-align: center;
+  margin: 0;
+  padding: 10px 0px;
+}
