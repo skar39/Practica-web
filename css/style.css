@@ -1,10 +1,10 @@
-@import url(css/reset.css);
-@import url(css/mobile.css);
-@import url(css/modo-dark.css);
-@import url(css/Galarias.css);
-@import url(css/contacto.css);
-@import url(css/sobremi.css);
-@import url(css/portfolio.css);
+@import url(reset.css);
+@import url(mobile.css);
+@import url(modo-dark.css);
+@import url(Galarias.css);
+@import url(contacto.css);
+@import url(sobremi.css);
+@import url(portfolio.css);
 * {
   color: #fff;
   font-size: 20px;
